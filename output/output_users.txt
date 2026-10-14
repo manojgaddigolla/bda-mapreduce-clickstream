@@ -1,0 +1,57 @@
+# Job 3 Output : User Activity Count
+# Input File   : clickstream.csv
+# Generated    : 2026-10-14 22:34:34
+# Mapper       : mapper_users.py  (emits User_ID -> 1 for each log record)
+# Reducer      : reducer_users.py (sums total requests per user)
+# Format       : <User_ID> [TAB] <Total_Request_Count>
+#--------------------------------------------------
+user_1	535
+user_10	489
+user_11	478
+user_12	484
+user_13	482
+user_14	511
+user_15	497
+user_16	489
+user_17	496
+user_18	502
+user_19	527
+user_2	497
+user_20	494
+user_21	493
+user_22	552
+user_23	476
+user_24	553
+user_25	530
+user_26	483
+user_27	480
+user_28	481
+user_29	536
+user_3	451
+user_30	505
+user_31	538
+user_32	500
+user_33	506
+user_34	524
+user_35	477
+user_36	514
+user_37	478
+user_38	493
+user_39	482
+user_4	481
+user_40	518
+user_41	504
+user_42	487
+user_43	500
+user_44	470
+user_45	518
+user_46	550
+user_47	479
+user_48	484
+user_49	467
+user_5	464
+user_50	487
+user_6	490
+user_7	497
+user_8	551
+user_9	520

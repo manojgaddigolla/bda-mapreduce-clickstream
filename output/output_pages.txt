@@ -1,0 +1,16 @@
+# Job 1 Output : Page Visit Count
+# Input File   : clickstream.csv
+# Generated    : 2026-10-14 22:34:33
+# Mapper       : mapper_pages.py  (emits URL -> 1 for each log record)
+# Reducer      : reducer_pages.py (sums total visits per URL)
+# Format       : <URL> [TAB] <Total_Visit_Count>
+#--------------------------------------------------
+/about	2764
+/cart	2790
+/checkout	2778
+/contact	2837
+/home	2798
+/login	2818
+/products	2673
+/products/electronics	2857
+/products/fashion	2685

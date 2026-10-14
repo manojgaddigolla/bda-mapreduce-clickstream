@@ -1,0 +1,12 @@
+# Job 2 Output : HTTP Status Code Distribution
+# Input File   : clickstream.csv
+# Generated    : 2026-10-14 22:34:34
+# Mapper       : mapper_status.py  (emits Status_Code -> 1 for each log record)
+# Reducer      : reducer_status.py (sums total count per HTTP status code)
+# Format       : <HTTP_Status_Code> [TAB] <Total_Count>
+# Status Codes : 200=OK, 301=Redirect, 404=Not Found, 500=Server Error
+#--------------------------------------------------
+200	20555
+301	776
+404	2402
+500	1267
